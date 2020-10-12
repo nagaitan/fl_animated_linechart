@@ -152,7 +152,7 @@ class _AnimatedChart extends AnimatedWidget {
 class ChartPainter extends CustomPainter {
   static final double _stepCount = 5;
 
-  final DateFormat _formatMonthDayHoursMinutes = DateFormat('dd/MM kk:mm');
+  final DateFormat _formatMonthDayHoursMinutes = DateFormat("yyyy-MM-dd HH:mm:ss");
 
   final Paint _gridPainter = Paint()
     ..style = PaintingStyle.stroke
