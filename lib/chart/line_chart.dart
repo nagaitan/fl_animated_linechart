@@ -155,9 +155,9 @@ class LineChart {
 
         TextSpan span = new TextSpan(
             style: new TextStyle(
-                color: Colors.grey[800],
+                color: Colors.black,
                 fontWeight: FontWeight.w200,
-                fontSize: 10),
+                fontSize: 12),
             text: axisValueString);
         TextPainter tp = new TextPainter(
             text: span,
@@ -226,8 +226,8 @@ class LineChart {
 
       TextSpan span = new TextSpan(
           style: new TextStyle(
-              color: Colors.grey[800],
-              fontSize: 11.0,
+              color: Colors.green,
+              fontSize: 12.0,
               fontWeight: FontWeight.w200),
           text: _formatDateTime(tick, duration));
       TextPainter tp = new TextPainter(
