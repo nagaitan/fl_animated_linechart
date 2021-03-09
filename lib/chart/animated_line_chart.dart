@@ -394,7 +394,7 @@ class ChartPainter extends CustomPainter {
 
       TextSpan span = TextSpan(
           style: TextStyle(
-              color: color, fontWeight: FontWeight.w200, fontSize: 14),
+              color: color, fontWeight: FontWeight.bold, fontSize: 14),
           text: _chart.indexToUnit[0]);
       TextPainter tp = TextPainter(
           text: span,
@@ -416,7 +416,7 @@ class ChartPainter extends CustomPainter {
 
       TextSpan span = TextSpan(
           style: TextStyle(
-              color: color, fontWeight: FontWeight.w200, fontSize: 14),
+              color: color, fontWeight: FontWeight.bold, fontSize: 14),
           text: _chart.indexToUnit[1]);
       TextPainter tp = TextPainter(
           text: span,
